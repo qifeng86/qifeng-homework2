@@ -1,0 +1,64 @@
+/**
+ * Media Query
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 992px or less.
+*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: blue;
+  }
+
+  /* The wrapper's width will be 300px */
+  .container {
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+
+@media screen and (max-width: 768px) and (min-width: 400px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: blue;
+  }
+
+  /* The wrapper's width will be 600px */
+  .container {
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 400px or less.
+*/
+
+@media screen and (max-width: 400px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: blue;
+  }
+
+  /* The wrapper's width will be 600px */
+  .container {
+    width: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
